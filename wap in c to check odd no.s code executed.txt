@@ -1,0 +1,14 @@
+wap in c to check all the odd no. from 1- 10 using while loop ?
+
+
+
+#include<stdio.h>
+int main(){
+    int a=1 ;
+    while(a<=10){
+        if(a % 2!=0){
+            printf("The odd numbers are : %d \n",a);
+        }
+        a++;
+    }
+}
